@@ -8,7 +8,22 @@ theme = 'yinyang'
   homepage = "https://github.com/morriswong"
 
 [params]
-  mainSections = ["posts"]
+  mainSections = ["dev"]
+
+[[menu.main]]
+  name = "Dev"
+  url = "/dev/"
+  weight = 1
+
+[[menu.main]]
+  name = "Life"
+  url = "/life/"
+  weight = 2
+
+[[menu.main]]
+  name = "Canto"
+  url = "/canto/"
+  weight = 3
 
 [[params.socials]]
   name = "GitHub"
