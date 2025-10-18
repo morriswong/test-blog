@@ -1,16 +1,19 @@
 baseURL = 'https://test-blog-8s6.pages.dev/'
 languageCode = 'en-us'
 title = 'My Blog'
-theme = 'PaperMod'
+theme = 'yinyang'
+
+[author]
+  name = "Morris Wong"
+  homepage = "https://github.com/morriswong"
 
 [params]
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowWordCount = true
+  mainSections = ["posts"]
 
-[[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/morriswong"
+[[params.socials]]
+  name = "GitHub"
+  link = "https://github.com/morriswong"
+
+[[params.socials]]
+  name = "RSS"
+  link = "/index.xml"
