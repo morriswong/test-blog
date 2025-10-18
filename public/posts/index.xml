@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Morris Wong&#39;s Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Morris Wong&#39;s Blog</description>
+    <generator>Hugo -- 0.151.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to My Blog!</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>&lt;p&gt;Hello world! This is my first post on this new Hugo-powered blog.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Journey So Far</title>
+      <link>http://localhost:1313/posts/my-journey/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-journey/</guid>
+      <description>&lt;p&gt;This is a sample post in the Life section. Here I share personal experiences, thoughts, and life updates.&lt;/p&gt;
+&lt;p&gt;Life is full of interesting moments and lessons learned along the way.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>你好世界</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;p&gt;呢個係粵語內容嘅示範文章。&lt;/p&gt;
+&lt;p&gt;喺呢度會分享一啲用粵語寫嘅內容同想法。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reflections on Growth</title>
+      <link>http://localhost:1313/posts/reflections/</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/reflections/</guid>
+      <description>&lt;p&gt;Another post in the Life section about personal growth and development.&lt;/p&gt;
+&lt;p&gt;Every day brings new opportunities to learn and improve.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>粵語文章示範</title>
+      <link>http://localhost:1313/posts/sample-post/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/sample-post/</guid>
+      <description>&lt;p&gt;另一篇粵語文章。&lt;/p&gt;
+&lt;p&gt;粵語係一種好有趣嘅語言，值得我哋去保留同發揚。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

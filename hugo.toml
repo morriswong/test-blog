@@ -1,34 +1,33 @@
 baseURL = 'https://test-blog-8s6.pages.dev/'
 languageCode = 'en-us'
-title = 'My Blog'
-theme = 'yinyang'
-
-[author]
-  name = "Morris Wong"
-  homepage = "https://github.com/morriswong"
+title = "Morris Wong's Blog"
+theme = 'PaperMod'
 
 [params]
-  mainSections = ["dev"]
+  mainSections = ["posts"]
+  description = "Dev • Life • Canto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowTags = true
 
 [[menu.main]]
-  name = "Dev"
-  url = "/dev/"
+  name = "Tags"
+  url = "/tags/"
   weight = 1
 
 [[menu.main]]
-  name = "Life"
-  url = "/life/"
+  name = "Archive"
+  url = "/archives/"
   weight = 2
 
-[[menu.main]]
-  name = "Canto"
-  url = "/canto/"
-  weight = 3
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/morriswong"
 
-[[params.socials]]
-  name = "GitHub"
-  link = "https://github.com/morriswong"
-
-[[params.socials]]
-  name = "RSS"
-  link = "/index.xml"
+[[params.socialIcons]]
+  name = "rss"
+  url = "/index.xml"

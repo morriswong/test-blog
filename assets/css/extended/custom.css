@@ -1,0 +1,20 @@
+/* Bubble Tea Theme */
+
+/* Light mode - Milk tea color */
+:root {
+    --theme: #f5e6d3;           /* Creamy milk tea background */
+    --entry: #f5e6d3;           /* Same as main background */
+    --border: #e8d5c4;          /* Slightly darker for borders */
+    --tertiary: #d4c4b0;        /* For subtle separators */
+    --code-bg: #ebe0d0;         /* Code inline background */
+}
+
+/* Dark mode - Black pearl color */
+.dark {
+    --theme: #1a0f08;           /* Very dark brown/black pearl background */
+    --entry: #251612;           /* Slightly lighter for cards */
+    --border: #332218;          /* Borders */
+    --tertiary: #3d2817;        /* Subtle separators */
+    --code-bg: #2d1f16;         /* Code inline background */
+    --code-block-bg: #251612;   /* Code blocks */
+}
