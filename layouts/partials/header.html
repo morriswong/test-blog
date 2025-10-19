@@ -1,0 +1,20 @@
+<header>
+    <div>
+        <h1>
+            <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+        </h1>
+        <nav style="margin-top: 0.5em;">
+            <a href="{{ .Site.BaseURL }}">Home</a>
+            <span style="margin: 0 0.5em;">·</span>
+            <a href="{{ "/tags/" | relLangURL }}">Tags</a>
+        </nav>
+        <div class="header-controls">
+            <div class="toggle-switch">
+                <input type="checkbox" id="darkModeToggle" class="toggle-input" aria-label="Toggle dark mode">
+                <label for="darkModeToggle" class="toggle-label">
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+</header>

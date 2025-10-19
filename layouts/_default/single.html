@@ -1,0 +1,28 @@
+{{- define "main" }}
+    <h1>{{ .Title }}</h1>
+    <h4>{{ .Params.description }}</h4>
+
+    {{- if isset .Params "date" }}
+    <p class="author-date">{{ printf `<time datetime="%s">%s</time>` (.Date.Format "2006-01-02T15:04:05Z07:00") (.Date.Format "January 2, 2006") | safeHTML }}</p>
+    {{- end }}
+
+    {{- if not (.Param "disableAnchoredHeadings") }}
+
+{{ partial "anchored_headings.html" .Content }}
+
+    {{- else }}
+
+{{ .Content }}
+
+    {{- end }}
+
+    {{- if .Params.tags }}
+    <div class="tags" style="margin-top: 2em; padding-top: 1em; border-top: 1px solid var(--border-color, #e0e0e0);">
+        <strong>Tags:</strong>
+        {{- range $index, $tag := .Params.tags }}
+            {{- if $index }}, {{ end }}
+            <a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}/">{{ $tag }}</a>
+        {{- end }}
+    </div>
+    {{- end }}
+{{- end }}

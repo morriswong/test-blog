@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Life on Morris Wong&#39;s Blog</title>
-    <link>http://localhost:1313/tags/life/</link>
+    <link>https://test-blog-8s6.pages.dev/tags/life/</link>
     <description>Recent content in Life on Morris Wong&#39;s Blog</description>
-    <generator>Hugo -- 0.151.2</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
+    <managingEditor>morriswch@gmail.com (Morris Wong)</managingEditor>
+    <webMaster>morriswch@gmail.com (Morris Wong)</webMaster>
+    <copyright>Copyright © 2025 Morris Wong. All rights reserved.</copyright>
     <lastBuildDate>Wed, 15 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://test-blog-8s6.pages.dev/tags/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Journey So Far</title>
-      <link>http://localhost:1313/posts/my-journey/</link>
-      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-journey/</guid>
-      <description>&lt;p&gt;This is a sample post in the Life section. Here I share personal experiences, thoughts, and life updates.&lt;/p&gt;
-&lt;p&gt;Life is full of interesting moments and lessons learned along the way.&lt;/p&gt;</description>
+      <link>https://test-blog-8s6.pages.dev/posts/my-journey/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate><author>morriswch@gmail.com (Morris Wong)</author>
+      <guid>https://test-blog-8s6.pages.dev/posts/my-journey/</guid>
+      <description>&lt;p&gt;This is a sample post in the Life section. Here I share personal experiences, thoughts, and life updates.&lt;/p&gt;&#xA;&lt;p&gt;Life is full of interesting moments and lessons learned along the way.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reflections on Growth</title>
-      <link>http://localhost:1313/posts/reflections/</link>
-      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/reflections/</guid>
-      <description>&lt;p&gt;Another post in the Life section about personal growth and development.&lt;/p&gt;
-&lt;p&gt;Every day brings new opportunities to learn and improve.&lt;/p&gt;</description>
+      <link>https://test-blog-8s6.pages.dev/posts/reflections/</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate><author>morriswch@gmail.com (Morris Wong)</author>
+      <guid>https://test-blog-8s6.pages.dev/posts/reflections/</guid>
+      <description>&lt;p&gt;Another post in the Life section about personal growth and development.&lt;/p&gt;&#xA;&lt;p&gt;Every day brings new opportunities to learn and improve.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
