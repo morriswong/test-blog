@@ -1,7 +1,10 @@
 baseURL = 'https://test-blog-8s6.pages.dev/'
 languageCode = 'en-us'
 title = "Morris Wong's Blog"
-theme = 'PaperMod'
+
+copyright = "Copyright © 2025 Morris Wong. All rights reserved."
+
+theme = "dario"
 
 [caches]
   [caches.images]
@@ -10,28 +13,7 @@ theme = 'PaperMod'
 [params]
   mainSections = ["posts"]
   description = "Dev • Life • Canto"
-  ShowReadingTime = true
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowWordCount = true
-  ShowTags = true
 
-[[menu.main]]
-  name = "Tags"
-  url = "/tags/"
-  weight = 1
-
-[[menu.main]]
-  name = "Archive"
-  url = "/archives/"
-  weight = 2
-
-[[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/morriswong"
-
-[[params.socialIcons]]
-  name = "rss"
-  url = "/index.xml"
+  [params.author]
+    name = "Morris Wong"
+    email = "morriswch@gmail.com"
