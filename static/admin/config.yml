@@ -4,6 +4,7 @@ backend:
   branch: main
   base_url: https://test-blog-oauth.morriswch.workers.dev
   auth_endpoint: /auth
+  auth_scope: repo
 
 media_folder: "static/img"
 public_folder: "/img"
