@@ -6,3 +6,5 @@ tags:
   - test
 ---
 Hi there from decap
+
+![](/img/podcast-cover-6-.jpg)
