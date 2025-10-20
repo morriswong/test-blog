@@ -12,32 +12,47 @@
     <link rel="preload" href="/fonts/Newsreader.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/Newsreader-italic.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="/css/default.min.640ea6200199f0b23298e3affee71fff2362ff00cc1c68c2a5b69fc246fbdd02.css" integrity="sha256-ZA6mIAGZ8LIymOOv/ucf/yNi/wDMHGjCpbafwkb73QI=">
+    <link rel="stylesheet" href="/css/custom.min.6b676b8b7594a860dce93afbb0d097dd339c9eae1b7790f9ddd9c82341442ca9.css" integrity="sha256-a2dri3WUqGDc6Tr7sNCX3TOcnq4bd5D53dnII0FELKk=">
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <script src="/js/darkmode.min.9211af6d380489c7cf64d4b18a1e49e75be2bebf92031d2165eb6c20bc59c6a2.js" integrity="sha256-khGvbTgEicfPZNSxih5J51vivr&#43;SAx0hZetsILxZxqI=" defer></script>
     <script src="/js/footnotes.min.e049c26d7ddda424be30c222001b5dbd0890e1bd0659fa171e586e92158e1286.js" integrity="sha256-4EnCbX3dpCS&#43;MMIiABtdvQiQ4b0GWfoXHlhukhWOEoY=" defer></script>
+    <script src="/js/theme-toggle.min.471fd63e82e257b04a5dfb412ee8d27639561b08fc157436014e94fa7e6c1b4b.js" integrity="sha256-Rx/WPoLiV7BKXftBLujSdjlWGwj8FXQ2AU6U&#43;n5sG0s=" defer></script>
 </head>
 
 
 <body>
 <header>
     <div>
-        <h1>
-            <a href="https://test-blog-8s6.pages.dev/">Morris Wong&#39;s Blog</a>
-        </h1>
-        <nav style="margin-top: 0.5em;">
-            <a href="https://test-blog-8s6.pages.dev/">Home</a>
-            <span style="margin: 0 0.5em;">·</span>
-            <a href="/tags/">Tags</a>
-        </nav>
+        <div style="display: flex; align-items: center; gap: 12px;">
+            <h1>
+                <a href="https://test-blog-8s6.pages.dev/">Morris Wong&#39;s Blog</a>
+            </h1>
+            <a href="/tags/" class="tag-icon-link" aria-label="Tags" title="Tags">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+                    <line x1="7" y1="7" x2="7.01" y2="7"></line>
+                </svg>
+            </a>
+        </div>
         <div class="header-controls">
-            <div class="toggle-switch">
-                <input type="checkbox" id="darkModeToggle" class="toggle-input" aria-label="Toggle dark mode">
-                <label for="darkModeToggle" class="toggle-label">
-                    <span class="toggle-slider"></span>
-                </label>
-            </div>
+            <button id="themeToggle" class="theme-toggle-button" aria-label="Toggle dark mode">
+                <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+                <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
         </div>
     </div>
 </header>
