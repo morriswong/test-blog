@@ -2,9 +2,8 @@ backend:
   name: github
   repo: morriswong/test-blog
   branch: main
-
-# Uncomment below to use a custom domain instead of *.pages.dev
-# site_domain: your-custom-domain.com
+  base_url: https://test-blog-oauth.morriswch.workers.dev
+  auth_endpoint: /auth
 
 media_folder: "static/img"
 public_folder: "/img"
