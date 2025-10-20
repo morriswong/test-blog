@@ -1,7 +1,7 @@
 ---
 title: Hi there from decap
 date: 2025-10-20
-draft: true
+draft: false
 tags:
   - test
 ---
