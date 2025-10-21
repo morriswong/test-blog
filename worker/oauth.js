@@ -62,6 +62,14 @@ export default {
           return new Response(`OAuth error: ${tokenData.error_description}`, { status: 400 });
         }
 
+        // Extract the access token
+        const accessToken = tokenData.access_token;
+
+        if (!accessToken) {
+          console.error('No access token in response:', tokenData);
+          return new Response('OAuth error: No access token received', { status: 400 });
+        }
+
         // Return success page that posts message to opener
         const successPage = `
 <!DOCTYPE html>
@@ -108,9 +116,15 @@ export default {
   </div>
   <script>
     (function() {
+      const token = ${JSON.stringify(accessToken)};
+      const tokenData = {
+        token: token,
+        provider: 'github'
+      };
+
       const receiveMessage = (message) => {
         window.opener.postMessage(
-          'authorization:github:success:${JSON.stringify(tokenData)}',
+          'authorization:github:success:' + JSON.stringify(tokenData),
           message.origin
         );
         window.removeEventListener("message", receiveMessage, false);
